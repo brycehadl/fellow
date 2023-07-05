@@ -87,11 +87,27 @@ header {
   text-align: center;
   cursor: pointer;
 }
+.button {
+  width: 130px;
+  height: 35px;
+  background: #c0c7cf;
+  border: none;
+  vertical-align: top;
+  margin-left: 35px;
+  cursor: pointer;
+  color: #fff;
+}
 
-button[disabled] {
+.button:enabled {
+  background: #c0c7cf;
+  color: #555;
+  cursor: default;
+}
+
+/* button[:disabled] {
   cursor: default;
   background: #c0c7cf;
-}
+} */
 
 .float-right {
   float: right;
